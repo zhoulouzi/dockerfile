@@ -1,0 +1,5 @@
+FROM  zhoulouzi/centos:7.6-base
+
+LABEL maintainer="zhoulouzi@hotmail.com"
+
+ADD pinpoint-agent-2.1.0.tar.gz /
